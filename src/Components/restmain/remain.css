@@ -1,0 +1,66 @@
+.restflex{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3%;
+    
+}
+.boxes{
+    border: #FA1010 solid;
+    width:70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 20px;
+}
+.rimage{
+    width:200%;
+}
+.rdes{
+    width:50%;
+}
+.headflex{
+    display: flex;
+}
+.off{
+    background-color: #FA1010;
+    border-radius: 20px;
+    color:white;
+    margin-left: 5%;
+    width: max-content;
+    padding: 10%;
+}
+.carting{
+    background-color: #FA1010;
+    border-radius: 20px;
+    color:white;
+    border: none;
+    outline:none;
+    margin-top: 95%;
+    padding: 10%;
+    width: max-content;
+}
+.rehead{
+   
+    margin-left: 10%;
+    
+    margin-top: 5%;
+}
+@media screen and (max-width:50rem){
+    .restflex{
+        flex-direction: column;
+    }
+    .rimage{
+        width:100%;
+    }
+    .rdes{
+        width:88%;
+    }
+    .carting{
+        margin-top: 1%;
+        padding: 2%;
+        width: 50%;
+
+    }
+    .rehead{
+        font-size: 1.2rem;
+    }
+}

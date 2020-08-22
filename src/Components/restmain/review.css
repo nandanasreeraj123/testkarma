@@ -1,0 +1,26 @@
+.rev{
+    background-color: #FA1010;
+    width:80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+.ta{
+    width:90%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+.stars{
+    width:50%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.review-submit{
+    outline: none;
+    border: none;
+    color: #FA1010;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+}

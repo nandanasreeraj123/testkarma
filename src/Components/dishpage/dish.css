@@ -1,0 +1,35 @@
+.flexing{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.city{
+    margin: 3%;
+    border:  #FA1010 solid;
+    border-radius: 20px;
+    padding: 1%;
+}
+.drops{
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    margin-top: 10%;
+}
+.deliver{
+    margin-left: 30%;
+    margin-top: 7%;
+    margin-right: 30%;
+    width: 40%;
+}
+@media screen and (max-width:50rem){
+
+    .flexing{
+        flex-direction: column;
+    }
+    .where{
+        font-size: 1.2rem;
+    }
+    .city{
+        padding-bottom: 5%;
+    }
+}

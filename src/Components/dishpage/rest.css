@@ -1,0 +1,58 @@
+.toflex{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FA1010;
+    padding: 1%;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    color: white;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.whites{
+    background-color: white;
+    color: black;
+    padding-left: 2%;
+    padding-top: 1%;
+    width:30%;
+    border-radius: 20px;
+    margin-right: 5%;
+    margin-top: 2%;
+    
+}
+.imgfood{
+    margin-top: 5%;
+}
+.restaurant{
+    margin-left: 3%;
+}
+@media screen and (max-width:50rem){
+
+    .buttons{
+        flex-direction: column;
+    }
+    .whites{
+        width: 60%;
+        padding-bottom: 0.5%;
+        font-size: 0.8rem;
+        padding-left: 10%;
+        margin-top: 5%;
+    }
+    .rt{
+        font-size: 0.8rem;
+    }
+    .rh{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width:45rem){
+    .whites{
+        width:100%;
+    }
+    
+}

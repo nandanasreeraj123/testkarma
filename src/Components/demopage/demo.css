@@ -1,0 +1,54 @@
+.logs{
+    outline: none;
+    border: none;
+    background-color: #FA1010;
+    color:white;
+    padding: 0.8%;
+    width:20%;
+    border-radius: 20px;
+    margin-left:40%;
+    margin-right: 40%;
+    margin-top: 1.5%;
+    margin-bottom: 0.5%;
+    cursor: pointer;
+
+}
+.ct{
+    font-weight: 800;
+    font-size: 3rem;
+}
+.heads{
+    width:50%;
+    margin-left: 35%;
+    margin-right: 15%;
+}
+.carousels{
+    width:56%;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-top: 3%;
+}
+@media screen and (max-width:55rem){
+
+    .heads{
+        margin-left: 30%;
+        width:60%;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width:50rem){
+
+    .logs{
+        width:40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        font-size: 0.8rem;
+    }
+    .heads{
+        font-size: 1rem;
+    }
+    .ct{
+        font-size: 1rem;
+    }
+}

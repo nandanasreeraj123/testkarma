@@ -1,0 +1,29 @@
+.he{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.foods{
+    font-weight: 800;
+    font-size: 2rem;
+    font-style: oblique;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+.headcol{
+    background-color: #FA1010;
+    color: white;
+}
+.linking{
+    text-decoration: none;
+    color:white;
+    margin-top: 1rem;
+    
+}
+.linking:hover{
+    text-decoration: none;
+    color:white;
+    
+    
+}

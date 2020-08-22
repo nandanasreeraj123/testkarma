@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Router } from "@reach/router";
+import Demoslide from "./Components/demopage/demo";
+import React from "react";
+import Dishfn from "./Components/dishpage/dish";
+import Rmain from "./Components/restmain/remain";
+import Checkout from "./Components/cart/carts";
+import Headers from "./Components/header/header";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+    <Headers/>
+    <Router>
+      <Demos path="/"></Demos>
+      <Dishes path="/dishes"></Dishes>
+      <Rdetails path="/details"></Rdetails>
+      <Cartdetails path="/cart"></Cartdetails>
+    </Router></div>
   );
 }
+const Demos = () => {
+  return <Demoslide />;
+};
+const Dishes = () => {
+  return <Dishfn />;
+};
+const Rdetails = () => {
+  return <Rmain />;
+};
+const Cartdetails = () => {
+  return <Checkout />;
+};
 
 export default App;
